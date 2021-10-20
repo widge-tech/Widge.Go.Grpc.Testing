@@ -35,6 +35,9 @@ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 ```bash
 # MacOS & Linux
 bash ./build.bash
+
+# Windows
+.\build.ps1
 ```
 
 
