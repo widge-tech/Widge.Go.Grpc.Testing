@@ -31,7 +31,8 @@ go env -w GOPROXY=https://goproxy.cn,direct
 或者设置环境变量
 
 ```bash
-export GOPROXY=https://goproxy.cn
+export GOPROXY="https://goproxy.cn"
+# echo 'export GOPROXY="https://goproxy.cn"' >> .zprofile
 ```
 
 ## 概念说明
