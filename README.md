@@ -32,6 +32,8 @@ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 
 ## proto 编译
 
+Windows 运行 powershell 脚本，需要先设置`Set-ExecutionPolicy Unrestricted`
+
 ```bash
 # MacOS & Linux
 bash ./build.bash
@@ -39,7 +41,6 @@ bash ./build.bash
 # Windows
 .\build.ps1
 ```
-
 
 ## 运行
 
