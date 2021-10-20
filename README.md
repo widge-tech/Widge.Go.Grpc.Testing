@@ -36,3 +36,11 @@ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 # MacOS & Linux
 bash ./build.bash
 ```
+
+
+## 运行
+
+```bash
+go mod tidy
+go run .
+```
