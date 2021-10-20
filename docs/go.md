@@ -4,6 +4,8 @@
 
 ### 安装
 
+安装golang，并把`${GOPATH}/bin`加入到环境变量中
+
 > 通过安装包安装（MacOS | Windows）
 
 下载 golang [官方](https://golang.org)（[镜像](https://golang.google.cn/)）安装文件并安装
