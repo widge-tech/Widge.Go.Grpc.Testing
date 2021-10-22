@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	port = ":6002"
+	port = ":6000"
 )
 
 // server is used to implement helloworld.GreeterServer.

@@ -1,4 +1,5 @@
-FROM golang:1.17.2
+FROM alpine:3.14.2
 ADD . /app
 WORKDIR /app
-CMD ["go","run","./src/main.go"]
+EXPOSE 6000
+ENTRYPOINT ["./widge.go.grpc.testing"]
