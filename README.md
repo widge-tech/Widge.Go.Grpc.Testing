@@ -54,3 +54,10 @@ go run .
 ```bash
 CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build
 ```
+
+## 构建镜像
+
+```bash
+docker build --pull --rm -f "Dockerfile" -t <name=grpc.testing>:<version=latest> <workspace=".">
+# example: docker build --pull --rm -f "Dockerfile" -t grpc.testing:latest "."
+```
